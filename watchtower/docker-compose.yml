@@ -7,6 +7,9 @@ services:
       - WATCHTOWER_NOTIFICATIONS=gotify
       - WATCHTOWER_NOTIFICATION_GOTIFY_URL=https://gotify.DOMAIN.ME/
       - WATCHTOWER_NOTIFICATION_GOTIFY_TOKEN=#######################
+      - WATCHTOWER_LIFECYCLE_HOOKS=1
+      - WATCHTOWER_NOTIFICATIONS=shoutrrr
+      - WATCHTOWER_NOTIFICATION_URL=telegram://<YourBotToken>@telegram/?channels=<YourChatId>
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
       - /etc/localtime:/etc/localtime:ro
