@@ -7,5 +7,5 @@ curl -fsSL https://github.com/pavlenkoia/common/raw/main/install-docker.sh | bas
 
 Снежинки
 ```html
-<script src="https://github.com/pavlenkoia/common/raw/main/snow.js"></script>
+<script src="https://pavlenkoia.github.io/common/snow.js"></script>
 ```
